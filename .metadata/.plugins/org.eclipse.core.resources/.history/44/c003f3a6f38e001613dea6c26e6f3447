@@ -1,0 +1,42 @@
+package com.ct.s01e10radio;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.RadioGroup.OnCheckedChangeListener;
+
+public class MainActivity extends Activity {
+	private RadioGroup radioGroup;
+	private RadioButton femaleButton;
+	private RadioButton maleButton;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+	}
+
+	class RadioGroupListener implements OnCheckedChangeListener{
+
+		@Override
+		public void onCheckedChanged(RadioGroup group, int checkedId) {
+			// TODO Auto-generated method stub
+			if(checkedId == femaleButton.getId()){
+				System.out.println("female");
+			}
+			else if(checkedId == maleButton.getId()){
+				System.out.println("male");
+			}
+			
+		}
+		
+	}
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}

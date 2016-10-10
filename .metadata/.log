@@ -2642,3 +2642,22 @@ org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; 前言中不允�
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+!SESSION 2016-10-10 20:40:11.289 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.wakatime.eclipse.plugin 1 0 2016-10-10 20:40:23.254
+!MESSAGE wakatime-cli is up to date.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-10 20:44:52.306
+!MESSAGE Failed to load properties file for project 'S01E09work'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-10 21:51:47.978
+!MESSAGE Failed to load properties file for project 'S01E10radio'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-10 22:51:18.337
+!MESSAGE Failed to load properties file for project 'S01E11img'
