@@ -1,0 +1,98 @@
+package com.ct.s01e09checkbox;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
+
+public class MainActivity extends Activity {
+	private CheckBox eatBox;
+	private CheckBox sleepBox;
+	private CheckBox dotaBox;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		eatBox = (CheckBox)findViewById(R.id.eatId);
+		sleepBox = (CheckBox)findViewById(R.id.sleepId);
+		dotaBox = (CheckBox)findViewById(R.id.dotaId);
+		
+		CheckBoxListener listener = new CheckBoxListener();
+		eatBox.setOnCheckedChangeListener(listener);
+		sleepBox.setOnCheckedChangeListener(listener);
+		dotaBox.setOnCheckedChangeListener(listener);
+		
+		/*OnBoxClickListener listener = new OnBoxClickListener();
+		eatBox.setOnClickListener(listener);
+		sleepBox.setOnClickListener(listener);
+		dotaBox.setOnClickListener(listener);*/
+		
+	}
+	class CheckBoxListener implements OnCheckedChangeListener{
+
+		@Override
+		public void onCheckedChanged(CompoundButton buttonView,
+				boolean isChecked) {
+			// TODO Auto-generated method stub
+			if(buttonView.getId() == R.id.eatId){
+				System.out.println("eatBox");
+			}
+			else if(buttonView.getId() == R.id.sleepId){
+				System.out.println("sleepbox");
+			}
+			else if(buttonView.getId() == R.id.dotaId){
+				System.out.println("dotabox");
+			}
+			if(isChecked){
+				System.out.println("checked");
+			}
+			else{
+				System.out.println("uncheck");
+			}
+			
+		}
+		
+	}
+	//OnClickListener的使用方法
+	/*class OnBoxClickListener implements OnClickListener{
+
+		@Override
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+			CheckBox box = (CheckBox)v;
+			System.out.println("id:   "+ v.getId());
+			if(box.getId() == R.id.eatId){
+				System.out.println("eatbox");
+				
+			}
+			else if(box.getId() == R.id.sleepId){
+				System.out.println("sleepbox");
+				
+			}
+			else if(box.getId() == R.id.dotaId){
+				System.out.println("dotabox");
+				
+			}
+			if(box.isChecked()){
+				System.out.println("ced");
+			}
+			else
+			{
+				System.out.println("uced");
+			}
+			System.out.println("is clicked");
+			
+		}
+		
+	}*/
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}
