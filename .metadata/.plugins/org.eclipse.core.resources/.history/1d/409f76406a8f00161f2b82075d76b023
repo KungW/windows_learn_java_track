@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+	<!--对齐base线  -->
+   <!--  <TextView
+        android:id="@+id/firstview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:textSize="50sp"
+        android:text="hello" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/firstview"
+        android:layout_alignBaseline="@id/firstview"
+        android:background="#0000ff"
+        android:text="abc" />
+ -->
+</RelativeLayout>

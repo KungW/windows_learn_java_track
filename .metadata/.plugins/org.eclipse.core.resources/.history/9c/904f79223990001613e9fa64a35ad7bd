@@ -1,0 +1,34 @@
+package com.ct.s01e16timepicker;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.widget.TimePicker;
+import android.widget.TimePicker.OnTimeChangedListener;
+
+public class MainActivity extends Activity {
+	private TimePicker firstTimePicker;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+	}
+	class TimeListener implements OnTimeChangedListener{
+
+		@Override
+		public void onTimeChanged(TimePicker view, int hourOfDay, int minute) {
+			// TODO Auto-generated method stub
+			System.out.println("Hour:" + hourofDay + ",minute" + minute);
+			
+			
+		}
+		
+	}
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+}
