@@ -46,5 +46,12 @@
         android:layout_toLeftOf="@id/cancelButton"
         android:text="确定"
         />
+    <TextView
+        android:id="@+id/resview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/okButton"
+        android:text="result" />
 
 </RelativeLayout>

@@ -3207,3 +3207,1011 @@ Binding(ALT+SHIFT+ARROW_DOWN,
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2016-10-12 16:44:40.084
 !MESSAGE Failed to load properties file for project 'S01E18RatingBar'
+
+!ENTRY org.eclipse.jface 2 0 2016-10-12 18:35:28.844
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-12 18:35:28.844
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@638691,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6e1295,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-12 18:35:28.844
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@17d650,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@43e26e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-12 18:35:28.844
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@f71e3c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@bea1c8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-12 18:35:28.844
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@107da4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@d9338d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-12 18:35:28.844
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e203ff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1746cc0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-12 18:35:28.844
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@8fd7f3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@176c5e2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-12 18:35:28.844
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1aab7bc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1552085,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-12 18:35:28.844
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@104c6a8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1918857,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-12 18:35:28.844
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@8e5294,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@b262c6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-12 18:35:28.844
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1cfa205,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@180eb88,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-12 18:35:28.844
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@95f837,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@652bd8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SESSION 2016-10-13 10:12:29.260 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-10-13 10:12:30.621
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui.workbench 4 2 2016-10-13 10:12:33.795
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextEntry(Unknown Source)
+	at java.util.HashMap$ValueIterator.next(Unknown Source)
+	at org.eclipse.core.commands.CommandManager.addExecutionListener(CommandManager.java:324)
+	at org.eclipse.ui.internal.commands.CommandService.addExecutionListener(CommandService.java:110)
+	at com.wakatime.eclipse.plugin.WakaTime.earlyStartup(WakaTime.java:100)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$52.run(Workbench.java:2357)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 4 2016-10-13 10:12:33.810
+!MESSAGE Unhandled Exception
+
+!ENTRY com.wakatime.eclipse.plugin 4 0 2016-10-13 10:12:33.810
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+java.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextEntry(Unknown Source)
+	at java.util.HashMap$ValueIterator.next(Unknown Source)
+	at org.eclipse.core.commands.CommandManager.addExecutionListener(CommandManager.java:324)
+	at org.eclipse.ui.internal.commands.CommandService.addExecutionListener(CommandService.java:110)
+	at com.wakatime.eclipse.plugin.WakaTime.earlyStartup(WakaTime.java:100)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$52.run(Workbench.java:2357)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-10-13 10:23:12.387 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.wakatime.eclipse.plugin 1 0 2016-10-13 10:23:24.837
+!MESSAGE Upgrading wakatime-cli ...
+
+!ENTRY com.wakatime.eclipse.plugin 1 0 2016-10-13 10:23:35.143
+!MESSAGE Finished upgrading wakatime-cli.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:35.730
+!MESSAGE activity_main.xml: Failed to find style 'ratingBarStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:35.730
+!MESSAGE activity_main.xml: Failed to find style 'ratingBarStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:35.739
+!MESSAGE activity_main.xml: Failed to find style 'ratingBarStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:35.740
+!MESSAGE activity_main.xml: Failed to find style 'ratingBarStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.058
+!MESSAGE activity_main.xml: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.062
+!MESSAGE activity_main.xml: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.063
+!MESSAGE activity_main.xml: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.067
+!MESSAGE activity_main.xml: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.302
+!MESSAGE palette: Failed to find style 'autoCompleteTextViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.305
+!MESSAGE palette: Failed to find style 'autoCompleteTextViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.305
+!MESSAGE palette: Failed to find style 'autoCompleteTextViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.321
+!MESSAGE palette: Failed to find style 'autoCompleteTextViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.328
+!MESSAGE palette: Failed to find style 'autoCompleteTextViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.329
+!MESSAGE palette: Failed to find style 'autoCompleteTextViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.331
+!MESSAGE palette: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.331
+!MESSAGE palette: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.332
+!MESSAGE palette: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.332
+!MESSAGE palette: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.333
+!MESSAGE palette: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.333
+!MESSAGE palette: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.334
+!MESSAGE palette: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.334
+!MESSAGE palette: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.337
+!MESSAGE palette: Failed to find style 'checkboxStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.338
+!MESSAGE palette: Failed to find style 'checkboxStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.339
+!MESSAGE palette: Failed to find style 'checkboxStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.339
+!MESSAGE palette: Failed to find style 'checkboxStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.340
+!MESSAGE palette: Failed to find style 'checkboxStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.342
+!MESSAGE palette: Failed to find style 'checkedTextViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.342
+!MESSAGE palette: Failed to find style 'checkedTextViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.342
+!MESSAGE palette: Failed to find style 'checkedTextViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.343
+!MESSAGE palette: Failed to find style 'checkedTextViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.343
+!MESSAGE palette: Failed to find style 'checkedTextViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.345
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.346
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.346
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.346
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.369
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.370
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.370
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.370
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.371
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.371
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.372
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.376
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.376
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.377
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.377
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.377
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.378
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.378
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.379
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.379
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.380
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.380
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.380
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.381
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.382
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.382
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.382
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.383
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.383
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.384
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.384
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.384
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.385
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.385
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.385
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.386
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.386
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.387
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.387
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.388
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.388
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.389
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.389
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.389
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.390
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.390
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.390
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.391
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.392
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.392
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.392
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.393
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.393
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.394
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.394
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.395
+!MESSAGE palette: Failed to find style 'editTextStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.395
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.396
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2016-10-13 10:23:36.404
+!MESSAGE Failed to render set of icons for AnalogClock, AutoCompleteTextView, Button, SmallButton, CheckBox, CheckedTextView, DigitalClock, PlainText, Password, PasswordNumeric, PersonName, Phone, PostalAddress, MultilineText, Date, Time, Email, Number, NumberSigned, NumberDecimal, LargeText, MediumText, SmallText, MultiAutoCompleteTextView, ProgressBarNormal, ProgressBarHorizontal, ProgressBarLarge, ProgressBarSmall, QuickContactBadge, RadioButton, RatingBar, SeekBar, ListView, ExpandableListView, Spinner, TextView, ToggleButton, ZoomButton, ZoomControls, CalendarView, RadioGroup
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.404
+!MESSAGE 
+!STACK 0
+android.content.res.Resources$NotFoundException
+	at com.android.layoutlib.bridge.android.BridgeContext.obtainStyledAttributes(BridgeContext.java:464)
+	at android.content.res.Resources_Theme_Delegate.obtainStyledAttributes(Resources_Theme_Delegate.java:48)
+	at android.content.res.Resources$Theme.obtainStyledAttributes(Resources.java:1170)
+	at android.widget.TextView.<init>(TextView.java:625)
+	at android.widget.TextView.<init>(TextView.java:578)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:587)
+	at android.view.BridgeInflater.onCreateView(BridgeInflater.java:86)
+	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:660)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:685)
+	at android.view.BridgeInflater.createViewFromTag(BridgeInflater.java:131)
+	at android.view.LayoutInflater.rInflate_Original(LayoutInflater.java:746)
+	at android.view.LayoutInflater_Delegate.rInflate(LayoutInflater_Delegate.java:64)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:718)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:489)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:372)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.inflate(RenderSessionImpl.java:385)
+	at com.android.layoutlib.bridge.Bridge.createSession(Bridge.java:332)
+	at com.android.ide.common.rendering.LayoutLibrary.createSession(LayoutLibrary.java:325)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.RenderService.createRenderSession(RenderService.java:440)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.render(PreviewIconFactory.java:273)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.initColors(PreviewIconFactory.java:595)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.getBackgroundColor(PreviewIconFactory.java:570)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.reloadPalette(PaletteControl.java:437)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.reloadPalette(GraphicalEditorPart.java:1320)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.changed(GraphicalEditorPart.java:764)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart$TargetListener.onSdkLoaded(GraphicalEditorPart.java:928)
+	at com.android.ide.eclipse.adt.AdtPlugin$7$1.run(AdtPlugin.java:1486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1022)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:916)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:585)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:540)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.409
+!MESSAGE palette: Failed to find style 'switchStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.409
+!MESSAGE palette: Failed to find style 'switchStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.410
+!MESSAGE palette: Failed to find style 'switchStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.410
+!MESSAGE palette: Failed to find style 'switchStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.410
+!MESSAGE palette: Failed to find style 'switchStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.412
+!MESSAGE palette: Failed to find style 'switchStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2016-10-13 10:23:36.413
+!MESSAGE Failed to render set of icons for Switch
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.413
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at android.widget.Switch.jumpDrawablesToCurrentState(Switch.java:825)
+	at android.view.ViewGroup.jumpDrawablesToCurrentState(ViewGroup.java:5158)
+	at android.view.ViewGroup.jumpDrawablesToCurrentState(ViewGroup.java:5158)
+	at android.widget.FrameLayout.jumpDrawablesToCurrentState(FrameLayout.java:189)
+	at android.view.View.onAttachedToWindow(View.java:11560)
+	at android.view.View.dispatchAttachedToWindow(View.java:11937)
+	at android.view.ViewGroup.dispatchAttachedToWindow(ViewGroup.java:2415)
+	at android.view.AttachInfo_Accessor.setAttachInfo(AttachInfo_Accessor.java:42)
+	at com.android.layoutlib.bridge.impl.RenderSessionImpl.inflate(RenderSessionImpl.java:393)
+	at com.android.layoutlib.bridge.Bridge.createSession(Bridge.java:332)
+	at com.android.ide.common.rendering.LayoutLibrary.createSession(LayoutLibrary.java:325)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.RenderService.createRenderSession(RenderService.java:440)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.render(PreviewIconFactory.java:273)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.initColors(PreviewIconFactory.java:595)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PreviewIconFactory.getBackgroundColor(PreviewIconFactory.java:570)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.PaletteControl.reloadPalette(PaletteControl.java:437)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.reloadPalette(GraphicalEditorPart.java:1320)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart.changed(GraphicalEditorPart.java:764)
+	at com.android.ide.eclipse.adt.internal.editors.layout.gle2.GraphicalEditorPart$TargetListener.onSdkLoaded(GraphicalEditorPart.java:928)
+	at com.android.ide.eclipse.adt.AdtPlugin$7$1.run(AdtPlugin.java:1486)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1022)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:916)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:585)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:540)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.416
+!MESSAGE palette: Failed to find style 'tabWidgetStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.418
+!MESSAGE palette: Failed to find style 'tabWidgetStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.418
+!MESSAGE palette: Failed to find style 'tabWidgetStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.419
+!MESSAGE palette: Failed to find style 'tabWidgetStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.471
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.472
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.472
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.472
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.477
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.477
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.478
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.478
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.481
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.482
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.482
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.483
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.506
+!MESSAGE palette: Failed to find style 'tabWidgetStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.507
+!MESSAGE palette: Failed to find style 'tabWidgetStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.507
+!MESSAGE palette: Failed to find style 'tabWidgetStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.508
+!MESSAGE palette: Failed to find style 'tabWidgetStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.514
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.514
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.515
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.515
+!MESSAGE palette: Failed to find style 'textViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.522
+!MESSAGE activity_main.xml: Failed to find style 'ratingBarStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.523
+!MESSAGE activity_main.xml: Failed to find style 'ratingBarStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.523
+!MESSAGE activity_main.xml: Failed to find style 'ratingBarStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.524
+!MESSAGE activity_main.xml: Failed to find style 'ratingBarStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.524
+!MESSAGE activity_main.xml: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.525
+!MESSAGE activity_main.xml: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.525
+!MESSAGE activity_main.xml: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2016-10-13 10:23:36.525
+!MESSAGE activity_main.xml: Failed to find style 'buttonStyle' in current theme
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2016-10-13 10:24:43.432
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+!SESSION 2016-10-14 13:59:14.318 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.wakatime.eclipse.plugin 1 0 2016-10-14 13:59:25.990
+!MESSAGE wakatime-cli is up to date.
+
+!ENTRY org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1f3ce17,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@be027f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@15f66c1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@113e4ac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@530aa1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@18f3472,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1df0796,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@13cc9d1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@16b299c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@129fcbe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@78e772,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1a322f3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@14bad7e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@11bb3c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@16b5f26,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1193ede,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@33de78,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@102851b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@152d4e8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@dfd82,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@117efed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@cee4d0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@88b858,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@17c19e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-14 14:14:43.938
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1fed113,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1f0e5de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
