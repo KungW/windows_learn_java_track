@@ -4218,3 +4218,8 @@ Binding(ALT+SHIFT+ARROW_LEFT,
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2016-10-14 14:56:06.398
 !MESSAGE Failed to load properties file for project 'Caculator'
+
+!ENTRY org.eclipse.core.resources 2 2 2016-10-14 15:01:07.000
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2016-10-14 15:01:07.000
+!MESSAGE The project description file (.project) for 'FirstAndroidApp' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
