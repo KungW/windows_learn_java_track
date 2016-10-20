@@ -1,21 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.ct.s01e09checkbox.MainActivity.CheckBoxListener"/>
-<fullyQualifiedTypeName name="android.widget.CheckBox"/>
-<fullyQualifiedTypeName name="com.ct.s01e09work.R.id"/>
-<fullyQualifiedTypeName name="com.ct.s01e09work.MainActivity.AllListener"/>
-<fullyQualifiedTypeName name="android.widget.RadioGroup.OnCheckedChangeListener"/>
-<fullyQualifiedTypeName name="com.ct.s01e10radio.R.id"/>
-<fullyQualifiedTypeName name="com.ct.s01e10radio.MainActivity.RadioGroupListener"/>
-<fullyQualifiedTypeName name="android.widget.RadioGroup"/>
-<fullyQualifiedTypeName name="android.widget.RadioButton"/>
-<fullyQualifiedTypeName name="android.widget.CompoundButton.OnCheckedChangeListener"/>
-<fullyQualifiedTypeName name="com.ct.s01e10radio.MainActivity.RadioButtonListener"/>
-<fullyQualifiedTypeName name="android.widget.ImageView"/>
-<fullyQualifiedTypeName name="android.widget.ImageView.ScaleType"/>
-<fullyQualifiedTypeName name="com.ct.s01e11img.R.drawable"/>
-<fullyQualifiedTypeName name="android.R.string"/>
-<fullyQualifiedTypeName name="android.widget.EditText"/>
-<fullyQualifiedTypeName name="android.widget.TextView"/>
-<fullyQualifiedTypeName name="com.ct.s01e15relativelayout3.R.id"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>
