@@ -1,5 +1,7 @@
 package com.example.chtgamework;
 
+import java.util.Hashtable;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,7 +18,7 @@ public class LoginActivity extends Activity
 	private EditText   et_password;
 	private Button     btn_login;
 	private Button     btn_register;
-
+	public static  Hashtable members;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +48,7 @@ public class LoginActivity extends Activity
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.button1:
+			
 			String username=et_username.getText().toString();
 			String password=et_password.getText().toString();
 			boolean isLogin=login(username,password);
@@ -64,13 +67,24 @@ public class LoginActivity extends Activity
 			}
 			break;
         case R.id.button2:
+        	members = new Hashtable();
+        	String newusername=et_username.getText().toString();
+			String newpassword=et_password.getText().toString();
+        	members.put(newusername, newpassword);
+        	Intent  intent =new Intent(LoginActivity.this,
+					MainActivity.class);
+        	startActivity(intent);
 			break;
 		}
 	}
 	public boolean  login(String username,String password){
+		
+		String n = (String) members.get(username);
+		System.out.println(n);
+		System.out.println("111111");
 		if(null!=username&&!"".equals(username)
 				&&null!=password&&!"".equals(password)){
-			if(username.equals("zhang")&&password.equals("111111")){
+			if(username.equals(username)&&password.equals(n)){
 				return true;
 			}else{
 				return false;
@@ -78,6 +92,8 @@ public class LoginActivity extends Activity
 		}else{
 			return false;
 		}
+		
+		
 	}
 }
 

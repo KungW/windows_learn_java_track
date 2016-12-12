@@ -23,29 +23,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText2"
-        android:layout_centerHorizontal="true"
-        android:text="计算和" />
+        android:layout_alignRight="@id/editText2"
+        android:text="和" />
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button1"
-        android:layout_centerHorizontal="true"
-        android:text="计算差" />
+        android:layout_below="@+id/editText2"
+        android:layout_toLeftOf="@id/button1"
+        android:text="差" />
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button2"
-        android:layout_centerHorizontal="true"
-        android:text="计算积" />
+        android:layout_below="@+id/editText2"
+        android:layout_toLeftOf="@id/button2"
+        android:text="积" />
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/button3"
-        android:layout_centerHorizontal="true"
-        android:text="计算商" />
+        android:layout_below="@+id/editText2"
+        android:layout_toLeftOf="@id/button3"
+        android:text="商" />
 
     <TextView
         android:id="@+id/textView1"
@@ -55,7 +55,6 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/button1"
         android:layout_marginTop="41dp"
-        android:text="和："
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
@@ -68,7 +67,15 @@
         android:ems="10"
         android:hint="请输入第一个数字" >
 
-        <requestFocus />
+       
     </EditText>
+    <Button
+	    android:id="@+id/testid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:text="test"
+        android:onClick="doclick"
+	    />
 
 </RelativeLayout>

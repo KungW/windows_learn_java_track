@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+
 import android.widget.EditText;
 import android.widget.TextView;
 public class MainActivity extends Activity {
@@ -16,6 +17,8 @@ public class MainActivity extends Activity {
 	private EditText first;
 	private EditText second;
 	private TextView textview;
+	Button testbutton;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -36,7 +39,7 @@ public class MainActivity extends Activity {
 		button3.setOnClickListener(listener);
 		button4.setOnClickListener(listener);
 	}
-
+	
 	class ButtonListener implements OnClickListener{
 
 		@Override
@@ -48,23 +51,27 @@ public class MainActivity extends Activity {
 		    int number2=Integer.parseInt(str2);
 			if(v.getId() == R.id.button1){
 				int num =number1+number2;
-				textview.setText("结果"+ num);
+				textview.setText(number1+"+"+number2+"结果："+ num);
 			}
 			else if(v.getId() == R.id.button2){
 				int num =number1-number2;
-				textview.setText("结果"+ num);
+				textview.setText(number1+"-"+number2+"结果："+ num);
 			}
 			else if(v.getId() == R.id.button3){
 				int num =number1*number2;
-				textview.setText("结果"+ num);
+				textview.setText(number1+"*"+number2+"结果："+ num);
 			}
 			else if(v.getId() == R.id.button4){
 				int num =number1/number2;
-				textview.setText("结果"+ num);
+				textview.setText(number1 + "/" + number2+"结果："+ num);
 			}
 			
 		}
 		
+	}
+	public void doclick(View v){
+		testbutton= (Button)findViewById(R.id.testid);
+		System.out.println("alert");
 	}
 
 }
