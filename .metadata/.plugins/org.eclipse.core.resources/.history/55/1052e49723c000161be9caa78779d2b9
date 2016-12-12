@@ -1,0 +1,27 @@
+package com.example.chtgamework;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class RegisterActivity extends Activity{
+	private Button btn_register;
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_login);
+		//加载View,并初始化
+		initView();
+		//设置监听
+		setListener();
+	}
+	private void initView() {
+	
+		
+		btn_register = (Button) findViewById(R.id.button2);
+		
+	}
+	private void setListener() {
+		btn_register.setOnClickListener(RegisterActivity.this);
+	}
+}

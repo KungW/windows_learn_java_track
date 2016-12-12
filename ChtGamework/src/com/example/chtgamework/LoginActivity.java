@@ -2,8 +2,13 @@ package com.example.chtgamework;
 
 import java.util.Hashtable;
 
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.ContentValues;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -33,6 +38,14 @@ public class LoginActivity extends Activity
 		//设置监听
 		setListener();
 	}
+	public void showMsg(String value)
+	{	
+		AlertDialog.Builder dialog=new AlertDialog.Builder(this);
+		dialog.setTitle("系统提示");
+		dialog.setMessage(value);
+		dialog.setPositiveButton("确定",null);
+		dialog.show();
+	}
 	private void setListener() {
 		btn_login.setOnClickListener(LoginActivity.this);
 		btn_register.setOnClickListener(this);
@@ -51,33 +64,44 @@ public class LoginActivity extends Activity
 			
 			String username=et_username.getText().toString();
 			String password=et_password.getText().toString();
-			boolean isLogin=login(username,password);
-			if(isLogin){
-				//跳转主界面
-				Intent  intent =new Intent(LoginActivity.this,
-						MainActivity.class);
+			try{
 				
-				intent.putExtra("NAME", "zhang");
-				
-				startActivity(intent);
-			}else{
-				Toast.makeText(
-						getApplicationContext(),
-						"用户名或密码输入有误", 0).show();
+				DBHelper db = new DBHelper(LoginActivity.this,"User.db",null,1);
+				SQLiteDatabase User = db.getWritableDatabase();
+				Cursor reader = User.query("User", new String[]{"username","userpwd"},"username = ? and userpwd = ?" ,
+						new String[]{et_username.getText().toString(),et_password.getText().toString()},null,null,null);
+				if(reader.getCount()>0)
+				{
+					showMsg("sss");
+					Intent  intent =new Intent(LoginActivity.this,MainActivity.class);
+					startActivity(intent);
+				}else{
+					Toast.makeText(
+							getApplicationContext(),
+							"用户名或密码输入有误", 0).show();
+				}
+			}catch(Exception e){
+				showMsg(e.getMessage());
 			}
+
+			
 			break;
         case R.id.button2:
-        	members = new Hashtable();
+        	/*members = new Hashtable();
         	String newusername=et_username.getText().toString();
 			String newpassword=et_password.getText().toString();
         	members.put(newusername, newpassword);
         	Intent  intent =new Intent(LoginActivity.this,
 					MainActivity.class);
+        	startActivity(intent);*/
+        	System.out.println("用户名或密码输入有误");
+        	Intent  intent =new Intent(LoginActivity.this,
+        			RegisterActivity.class);
         	startActivity(intent);
 			break;
 		}
 	}
-	public boolean  login(String username,String password){
+	/*public boolean  login(String username,String password){
 		
 		String n = (String) members.get(username);
 		System.out.println(n);
@@ -94,6 +118,12 @@ public class LoginActivity extends Activity
 		}
 		
 		
-	}
+	}*/
+
+		
+	
+		
+		
+
 }
 

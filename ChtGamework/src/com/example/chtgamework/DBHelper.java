@@ -21,22 +21,7 @@ public class DBHelper extends SQLiteOpenHelper{
 	public void onCreate(SQLiteDatabase db) {
 		// TODO Auto-generated method stub
 		db.execSQL(CREATE_USER);
-		try{
-			DBHelper DB = new DBHelper(LoginActivity.this,"User.db",null,1);
-			User = DBhelp.getWritableDatabase();
-			Cursor reader = User.query("User", new String[]{"username","userpsd"},"username = ? and userpsd = ?" ,
-					new String[]{et_username.getText().toString(),et_password.getText().toString()},null,null,null);
-			if(reader.getCount()>0)
-			{
-				showMsg("sss");
-				Intent  intent =new Intent(LoginActivity.this,MainActivity.class);
-				startActivity(intent);
-			}else{
-				showMsg("fff");
-			}
-		}catch(Exception e){
-			showMsg(e.getMessage());
-		}
+		
 	}
 
 	@Override
