@@ -1,0 +1,5 @@
+package com.example.cht_weather.updateable;
+
+public class MovingPictureView {
+
+}

@@ -1,0 +1,23 @@
+package com.example.cht_weather;
+
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ArrayAdapter;
+public class MainActivity extends BMainActivity implements  OnClickListener{
+	private HorizontalListView  hlv;
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		loadLayout(R.layout.activity_main);
+		showWeatherBack("Çç");
+		hlv=(HorizontalListView) findViewById(R.id.horizontalListView);
+		HLVAdapter   adapter=new HLVAdapter(this, 1, R.layout.horization_listview_item);
+		hlv.setAdapter(adapter);
+	}
+	@Override
+	public void onClick(View v) {
+		String str="À×µç";
+		showWeatherBack(str);
+	}
+}
